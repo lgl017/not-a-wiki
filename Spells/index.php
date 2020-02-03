@@ -122,7 +122,7 @@
             </tbody>
         </table>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="../scripts/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <script>
             var minTier = document.getElementById("tmin").value;
             var maxTier = document.getElementById("tmax").value;
