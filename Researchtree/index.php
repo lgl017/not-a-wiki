@@ -6,49 +6,29 @@
 </link>
 <div id="calrps">
     <style>
-        table {
-            border-collapse: collapse;
-        }
-
-        th {
-            font-size: 14px;
-        }
-
-        td {
-            font-size: 14px;
-        }
-
         th, td {
             border: 1px solid black;
         }
-
-        tr.calc:hover {
-            background-color: #b3bcc6;
-        }
-
-        table {
-            width: 100%;
-        }
-
-        td {
-            text-align: center;
-        }
-
         th {
             background-color: #b3bcc6;
-            color: black;
-        }</style>
-    <table>
+        }
+	</style>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+    <table style="border-collapse: collapse">
         <tr>
             <th colspan="5">Maximum Research Points and Cost Per Reincarnation</th>
         </tr>
-    </table>
-    <table>
         <tr class="calc">
             <th style="width:100px">Reincarnation</th>
             <th style="width:115px">Research Points</th>
             <th style="width:175px">Cost in Coins</th>
-            <th style="width:175px">Recomended Gems</th>
+            <th style="width:175px">Recommended Gems</th>
             <th>Cost in Faction Coins</th>
         </tr>
         <tr class="calc">
@@ -146,22 +126,22 @@
             "98": {"RP": "4851", "CoinSc": "5.80e290", "CoinSh": "580.31 Qinog", "FCSc": "7.21e13", "FCSh": "72.12 T", "GemsSc": "3.41e139", "GemsSh": "34.07 Qiqag"},
             "99": {"RP": "4950", "CoinSc": "5.93e296", "CoinSh": "592.58 Spnog", "FCSc": "7.82e13", "FCSh": "78.16 T", "GemsSc": "3.44e142", "GemsSh": "34.43 Sxqag"},
             "100": {"RP": "5000", "CoinSc": "N/A", "CoinSh": "", "FCSc": "8.46e13", "FCSh": "84.63 T", "GemsSc": "N/A", "GemsSh": ""},
-			"175": {"RP": "5125", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"176": {"RP": "5250", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"177": {"RP": "5375", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"178": {"RP": "5500", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"179": {"RP": "5625", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"180": {"RP": "5750", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"181": {"RP": "5875", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"182": {"RP": "6000", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"183": {"RP": "6125", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"184": {"RP": "6250", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"185": {"RP": "6375", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"186": {"RP": "6500", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"187": {"RP": "6625", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"188": {"RP": "6750", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"189": {"RP": "6875", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"},
-			"190": {"RP": "7000 Maxed", "CoinSc": "?", "CoinSh": "?", "FCSc": "?", "FCSh": "?", "GemsSc": "?", "GemsSh": "?"}
+			"175": {"RP": "5125", "CoinSc": "1.091e129", "CoinSh": "1.091 Dqag", "FCSc": "1.253e38", "FCSh": "125.3 Ud", "GemsSc": "4.671e58", "GemsSh": "46.71 Ocd"},
+			"176": {"RP": "5250", "CoinSc": "1.191e132", "CoinSh": "1.191 Tqag", "FCSc": "1.594e38", "FCSh": "159.4 Ud", "GemsSc": "1.543e60", "GemsSh": "1.543 Nod"},
+			"177": {"RP": "5375", "CoinSc": "1.3e135", "CoinSh": "1.3 Qaqag", "FCSc": "2.016e38", "FCSh": "201.6 Ud", "GemsSc": "5.099e61", "GemsSh": "50.99 Nod"},
+			"178": {"RP": "5500", "CoinSc": "1.419e138", "CoinSh": "1.419 Qiqag", "FCSc": "2.538e38", "FCSh": "253.8 Ud", "GemsSc": "1.685e63", "GemsSh": "1.685 Vg"},
+			"179": {"RP": "5625", "CoinSc": "1.548e141", "CoinSh": "1.548 Sxqag", "FCSc": "3.177e38", "FCSh": "317.7 Ud", "GemsSc": "5.564e64", "GemsSh": "55.64 Vg"},
+			"180": {"RP": "5750", "CoinSc": "1.69e144", "CoinSh": "1.69 Spqag", "FCSc": "3.958e38", "FCSh": "395.8 Ud", "GemsSc": "1.838e66", "GemsSh": "1.838 Uvg"},
+			"181": {"RP": "5875", "CoinSc": "1.844e147", "CoinSh": "1.844 Ocqag", "FCSc": "4.907e38", "FCSh": "490.7 Ud", "GemsSc": "6.073e67", "GemsSh": "60.73 Uvg"},
+			"182": {"RP": "6000", "CoinSc": "2.013e150", "CoinSh": "2.013 Noqag", "FCSc": "6.057e38", "FCSh": "605.7 Ud", "GemsSc": "2.006e69", "GemsSh": "2.006 Dvg"},
+			"183": {"RP": "6125", "CoinSc": "2.197e153", "CoinSh": "2.197 Qig", "FCSc": "7.443e38", "FCSh": "744.3 Ud", "GemsSc": "6.629e70", "GemsSh": "66.29 Dvg"},
+			"184": {"RP": "6250", "CoinSc": "2.397e156", "CoinSh": "2.397 Uqig", "FCSc": "9.11e38", "FCSh": "911 Ud", "GemsSc": "2.19e72", "GemsSh": "2.19 Tvg"},
+			"185": {"RP": "6375", "CoinSc": "2.617e159", "CoinSh": "2.617 Dqig", "FCSc": "1.11e39", "FCSh": "1.11 Dd", "GemsSc": "7.235e73", "GemsSh": "72.35 Tvg"},
+			"186": {"RP": "6500", "CoinSc": "2.856e162", "CoinSh": "2.856 Tqig", "FCSc": "1.348e39", "FCSh": "1.348 Dd", "GemsSc": "2.39e75", "GemsSh": "2.39 Qavg"},
+			"187": {"RP": "6625", "CoinSc": "3.117e165", "CoinSh": "3.117 Qaqig", "FCSc": "1.631e39", "FCSh": "1.631 Dd", "GemsSc": "7.896e76", "GemsSh": "78.96 Qavg"},
+			"188": {"RP": "6750", "CoinSc": "3.401e168", "CoinSh": "3.401 Qiqig", "FCSc": "1.966e39", "FCSh": "1.966 Dd", "GemsSc": "2.608e78", "GemsSh": "2.608 Qivg"},
+			"189": {"RP": "6875", "CoinSc": "3.712e171", "CoinSh": "3.712 Sxqig", "FCSc": "2.362e39", "FCSh": "2.362 Dd", "GemsSc": "8.616e79", "GemsSh": "86.16 Qivg"},
+			"190": {"RP": "7000 Maxed", "CoinSc": "4.051e174", "CoinSh": "4.051 Spqig", "FCSc": "2.829e39", "FCSh": "2.829 Dd", "GemsSc": "2.846e81", "GemsSh": "2.846 Sxvg"}
         };
         function CalcCost() {
             var reinc = parseInt($('#reinc').val());
@@ -513,8 +493,8 @@
 	<p><b>Research Name</b>: Tinkering
 	<p><b>Requirement</b>: Research Recycling (E10) & Reinforcing (C135)
 	<p><b>Cost</b>: 129.6 Noqag (1.296E152)
-	<p><b>Effect</b>: Increase the production of all buildings based on the amount of research made.
-	<p><b>Formula</b>: round(125 * x ^ 0.38)%, where x is number of researches made.
+	<p><b>Effect</b>: Increase the production of all buildings based on the amount of total research points bought.
+	<p><b>Formula</b>: round(125 * x ^ 0.38)%, where x is number of total research points bought.
 	" coords="112,326,161,375" shape="rect">
         <area research="C175 - For Goblin
 	<p><b>Research Name</b>: Gemcutting
@@ -736,8 +716,8 @@
 	<p><b>Research Name</b>: Retribution
 	<p><b>Requirement</b>: Research Betrayal (W120) & Transfixion (D55).
 	<p><b>Cost</b>: 129.6 Noqag (1.296E152)
-	<p><b>Effect</b>: Increase chance to find faction coins based on the amount of research made.
-	<p><b>Formula</b>: floor(x ^ 1.25), where x is the amount of research made.
+	<p><b>Effect</b>: Increase chance to find faction coins based on the amount of total research points bought.
+	<p><b>Formula</b>: floor(x ^ 1.25), where x is the amount of total research points bought.
 	" coords="444,513,492,562" shape="rect">
         <area research="D175 - For Angel
 	<p><b>Research Name</b>: Resurrection
@@ -910,7 +890,7 @@
         <area research="D5625 - For All Factions
 	<p><b>Research Name</b>: Prophecy
 	<p><b>Requirement</b>: R179+, Forgotten Relic, Mythos artifact and upgrade
-	<p><b>Effect</b>: Empowers the effects of your faction’s Set based on time spent with your least used faction. Lineage levels count more, by the same amount, for your faction’s Advanced Heritage.
+	<p><b>Effect</b>: Empowers the effects of your faction's Set based on time spent with your least used faction. Lineage levels count more, by the same amount, for your faction’s Advanced Heritage.
 	<p><b>Formula</b>: (0.3 * x ^ 0.7), where x is your least spent faction time.
 	" coords="334,676,382,723" shape="rect">
         <area research="D5875 - For All Factions

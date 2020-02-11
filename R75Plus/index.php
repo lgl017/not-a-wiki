@@ -15,24 +15,24 @@
 	<p><b>Production Builds</b></p>
 	<div class="category">
 		<div class="shelementwhole">
-			<p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Demonline Titans Starter</a></b></p>
+			<p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Fairyline Titans Starter</a></b></p>
 			<div class="autohide">
 				<p><b>Author</b>: Cyden</p>
-				<p><b>Requirement</b>: Demon Lineage 20+ (Demon perk 2 NOT needed)
-					<p><b>Range</b>: 0 - 1e27 (1 Oc) Gems</p>
-					<p><b>Faction</b>: Titan/Dragon</p>
-					<p><b>Bloodline</b>: Demon</p>
-					<p>
-						<button onclick="myFunction($(this))">Copy Build</button>
-						<input type="text" value="S135,S150,S215,S270,S330,S500,C150,C250,C251,C330,C340,C375,C400,D55,D200,D245,D250,D290,D320,E135,E145,E275,E320,E330,E400,A105,A120,A250,A305,A330,A400,W150,W180,W250,W290,W320,W330,W400">
-					</p>
-					<p>S135,S150,S215,S270,S330,S500,</p>
-					<p>C150,C250,C251,C330,C340,C375,C400,</p>
-					<p>D55,D200,D245,D250,D290,D320,</p>
-					<p>E135,E145,E275,E320,E330,E400,</p>
-					<p>A105,A120,A250,A305,A330,A400,</p>
-					<p>W150,W180,W250,W290,W320,W330,W400</p>
-					<p><b>Notes</b>: Excavate for the royal exchanges to buy the lineage.</p>
+				<p><b>Requirement</b>: Fairy Lineage 20+</p>
+				<p><b>Range</b>: 0 - 1e27 (1 Oc) Gems</p>
+				<p><b>Faction</b>: Titan/Dragon</p>
+				<p><b>Bloodline</b>: Fairy</p>
+				<p>
+					<button onclick="myFunction($(this))">Copy Build</button>
+					<input type="text" value="S135,S150,S215,S270,S330,S500,C150,C250,C251,C330,C340,C375,C400,D55,D200,D245,D250,D290,D320,E135,E145,E275,E320,E330,E400,A105,A120,A250,A305,A330,A400,W150,W180,W250,W290,W320,W330,W400">
+				</p>
+				<p>S135,S150,S215,S270,S330,S500,</p>
+				<p>C150,C250,C251,C330,C340,C375,C400,</p>
+				<p>D55,D200,D245,D250,D290,D320,</p>
+				<p>E135,E145,E275,E320,E330,E400,</p>
+				<p>A105,A120,A250,A305,A330,A400,</p>
+				<p>W150,W180,W250,W290,W320,W330,W400</p>
+				<p><b>Notes</b>: Excavate for the royal exchanges to buy the lineage.</p>
 			</div>
 		</div>
 		<div class="shelementwhole">
@@ -201,7 +201,7 @@
 			</div>
 		</div>
 		<div class="shelementwhole">
-			<p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Nameless Philanthropists (R77-80)<font color="Blue"> Good</font></a></b></p>
+			<p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Nameless Philanthropists (R77-89)<font color="Blue"> Good</font></a></b></p>
 			<div class="autohide">
 				<p><b>Author</b>: Cyden</p>
 				<p><b>Requirement</b>: low excavations count (Reset excavations if needed)
@@ -239,36 +239,6 @@
 					<p><b>Notes</b>: Excavate for Dragon Heritage, Dragon upgrade 3 & 4, and Holy Light tier 3</p>
 					<p><b>Notes</b>: Swap D275->D525 if T4+ HL</p>
 					<p><b>Notes</b>: Swap C150->C3100, W275->W3150 for R79+</p>
-			</div>
-		</div>
-		<div class="shelementwhole">
-			<p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Altergeist (R81-R89)<font color="DarkGoldenRod"> Neutral</font></a></b></p>
-			<div class="autohide">
-				<p><b>Author</b>: 6000j modified by Cyden</p>
-				<p><b>Range</b>: 1e91 (10 Novg) (1e88 (10 Ocvg) With Sunforce: Assistants) - 1e97 (10 Utg) Gems</p>
-				<p><b>Faction</b>: Neutral Mercenary</p>
-				<p><b>Bloodline</b>: Undead</p>
-				<p><b>A2950</b>: Dragon</p>
-				<p>
-					<button onclick="myFunction($(this))">Copy Build</button>
-					<input type="text" value="FR2,EL3,AN5,AN9,TT3,TT6,DD4,FC7,DN2,DN8,DG4,DG9,SP:Dragon's Breath,SP:God's Hand,S215,S305,S330,S1450,S1500,S3200,C150,C340,C400,C590,C1300,C3000,D25,D275,D290,D1275,D1375,D2775,E135,E350,E1225,E1425,E3250,E3300,A105,A120,A175,A1200,A1500,A2950,W180,W275,W400,W1275,W1375,W3150">
-				</p>
-				<p>
-					<button onclick="myFunction($(this))">Copy Build</button>
-					<input type="text" value="FR2,EL3,AN5,AN9,TT3,TT6,DD4,FC7,DN2,DN8,DG4,DG9,SP:Dragon's Breath,SP:God's Hand,S215,S305,S330,S1450,S1500,S3200,C150,C340,C400,C590,C1300,C3000,D25,D275,D290,D1275,D1375,D2775,E135,E350,E1225,E1425,E3250,E3300,A105,A120,A1200,A1500,A2950,A3400,W180,W275,W400,W1275,W1375,W3150">
-					<b>R82+</b>
-				</p>
-				<p>FR2,EL3,AN5,AN9,TT3,TT6,DD4,FC7,DN2,DN8,DG4,DG9,</p>
-				<p>SP:Dragon's Breath,SP:God's Hand,</p>
-				<p>S215,S305,S330,S1450,S1500,S3200,</p>
-				<p>C150,C340,C400,C590,C1300,C3000,</p>
-				<p>D25,D275,D290,D1275,D1375,D2775,</p>
-				<p>E135,E350,E1225,E1425,E3250,E3300,</p>
-				<p>A105,A120,A175,A1200,A1500,A2950,</p>
-				<p>W180,W275,W400,W1275,W1375,W3150</p>
-				<p><b>Notes</b>: Swap A175->A3400 for R82+</p>
-				<p><b>Notes</b>: Use only once per R, high initial power, affords Freemason Hall easier but sacrifice long term production.</p>
-				<p><b>Notes</b>: Some Researches will require you to buy E3300 first.</p>
 			</div>
 		</div>
 		<div class="shelementwhole">
@@ -411,37 +381,7 @@
 			</div>
 		</div>
 		<div class="shelementwhole">
-			<p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Dragonist Manifesto (R95+)<font color="Blue"> Good</font></a></b></p>
-			<div class="autohide">
-				<p><b>Author</b>: Somarilnos</p>
-				<p><b>Requirement</b>: Primal Balance +10 (use Mana Breeder Reactor build to do this)</p>
-				<p><b>Range</b>: 1e129 (1 Dqag) Gems+</p>
-				<p><b>Faction</b>: Good Mercenary</p>
-				<p><b>Bloodline</b>: Dragon</p>
-				<p><b>A2950</b>: Elf</p>
-				<p>
-					<button onclick="myFunction($(this))">Copy Build</button>
-					<input type="text" value="FR3,EL3,EL7,AN5,TT6,DD6,DD7,DD9,DN2,DG3,DG4,DG9,MA:FR1,SP:Fairy Chanting,SP:Grand Balance,S215,S305,S330,S1275,S1450,S1500,C225,C340,C590,C1300,C3000,C3100,D25,D290,D525,D1275,D1375,D2775,E50,E135,E350,E460,E1225,E3300,A30,A120,A270,A1500,A2950,A3400,W10,W25,W1275,W1400,W3050,W3150">
-				</p>
-				<p>
-					<button onclick="myFunction($(this))">Copy Build</button>
-					<input type="text" value="FR3,EL3,EL7,AN5,TT6,DD6,DD7,DD9,DN2,DG3,DG4,DG9,MA:FR1,SP:Fairy Chanting,SP:Grand Balance,S215,S305,S330,S1275,S1450,S1500,C225,C340,C590,C1300,C3000,C3100,D25,D290,D525,D1275,D1375,D2775,E50,E135,E290,E350,E1225,E3300,A30,A120,A270,A1500,A2950,A3400,W10,W25,W1275,W1400,W3050,W3150">
-					<b>E290</b>
-				</p>
-				<p>FR3,EL3,EL7,AN5,TT6,DD6,DD7,DD9,DN2,DG3,DG4,DG9,MA:FR1,</p>
-				<p>SP:Fairy Chanting,SP:Grand Balance,</p>
-				<p>S215,S305,S330,S1275,S1450,S1500,</p>
-				<p>C225,C340,C590,C1300,C3000,C3100</p>
-				<p>D25,D290,D525,D1275,D1375,D2775,</p>
-				<p>E50,E135,E350,E460,E1225,E3300,</p>
-				<p>A30,A120,A270,A1500,A2950,A3400,</p>
-				<p>W10,W25,W1275,W1400,W3050,W3150</p>
-				<p><b>Notes</b>: Meant for longer (8+ hour) runs.</p>
-				<p><b>Notes</b>: Swap E460 with E290 for additional ruby excavations.</p>
-			</div>
-		</div>
-		<div class="shelementwhole">
-			<p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Blue Moon (R95+)<font color="Blue"> Good</font></a> Needs Testing</b></p>
+			<p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Blue Moon (R95+)<font color="Blue"> Good</font></a></b></p>
 			<div class="autohide">
 				<p><b>Author</b>: Glenniss2</p>
 				<p><b>Requirement</b>: Primal Balance +10 (use Mana Breeder Reactor build to do this)</p>
@@ -624,7 +564,7 @@
 				</p>
 				<p>
 					<button onclick="myFunction($(this))">Copy Build</button>
-					<input type="text" value="EL1,EL3,EL4,EL7,AN5,AN8,DD3,DD6,FC7,DN2,DG4,DG7,MA:FR7,SP:Fairy Chanting,SP:Dragon's Breath,S200,S305,S330,S1275,S1450,S1500,C250,C340,C400,C590,C1300,C1325,D25,D200,D275,D290,D330,D2775,E80,E135,E320,E350,E590,E1225,A120,A270,A305,A545,A1325,A1500,W180,W275,W400,W1275,W1375,W1400"> 
+					<input type="text" value="EL1,EL3,EL4,EL7,AN5,AN8,DD3,DD6,FC7,DN2,DG4,DG7,MA:FR7,SP:Fairy Chanting,SP:Dragon's Breath,S200,S305,S330,S1275,S1450,S1500,C250,C340,C400,C590,C1300,C1325,D25,D200,D275,D290,D330,D2775,E80,E135,E320,E350,E590,E1225,A120,A270,A305,A545,A1325,A1500,W180,W275,W400,W1275,W1375,W1400">
 					<b>Share Benefits tier</b>
 				</p>
 				<p>EL1,EL3,EL4,EL7,AN5,AN8,DD3,DD6,FC7,DN2,DG4,DG7,MA:AN6,</p>
@@ -805,7 +745,6 @@
 				<p>A120,A270,A305,A1500,A2950,A3400,</p>
 				<p>W275,W400,W1275,W1375,W1400,W3150</p>
 				<p><b>Notes</b>: Recommended to do spell tiers first before building lineage, so you can build up clicks count.</p>
-				<p><b>Notes</b>: When doing Fairyline/Dragonline swap Fairy Chanting/Dragon's breath with God's Hand if Fairy/Dragon Perk 2 is unlocked.</p>
 				<p><b>Notes</b>: Swap AN6 with FR7 if it means you can cast an extra Share Benefits tier.
 					<p>
 			</div>
@@ -837,6 +776,7 @@
 				<p>A120,A270,A305,A1500,A2950,A3400,</p>
 				<p>W275,W400,W1275,W1375,W1400,W3150</p>
 				<p><b>Notes</b>: Recommended to do spell tiers first before building lineage, so you can build up clicks count.</p>
+				<p><b>Notes</b>: When doing Fairyline/Dragonline swap Fairy Chanting/Dragon's breath with God's Hand if Fairy/Dragon Perk 2 is unlocked.</p>
 				<p><b>Notes</b>: Swap AN6 with FR7 if it means you cna cast an extra Share Benefits tier.</p>
 			</div>
 		</div>
