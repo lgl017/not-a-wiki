@@ -1710,9 +1710,9 @@
                 <hr>
                 <p><b><img src="http://musicfamily.org/realm/Factions/picks/ForScience!SecretUpgrade.png" alt="For Science!" align="middle"> For Science!</b></p>
                 <p><b>Requirement</b>: Purchase all the research facilities.</p>
-                <p><b>Cost</b>: 1 Qag (1E123)</p>
+                <p><b>Cost</b>: 1 Qag (1E123), A1+ Free</p>
                 <p><b>Alignment</b>: Any</p>
-                <p><b>Effect</b>: Increase the overall production of Vanilla Factions by 100%.</p>
+                <p><b>Effect</b>: Increase the production of all buildings by 100% when you can access Research.</p>
                 <hr>
                 <p><b><img src="http://musicfamily.org/realm/Factions/picks/NeutralChallengerSecretUpgrade.png" alt="Neutral Challenger" align="middle"> Neutral Challenger</b></p>
                 <p><b>Requirement</b>: Complete all the Neutral Challenges.</p>
@@ -1816,7 +1816,7 @@
                 <p><b>Requirement</b>: In the Save tab, try to import this text: glho kohhl snod.</p>
                 <p><b>Cost</b>: 1000</p>
                 <p><b>Alignment</b>: Any</p>
-                <p><b>Effect</b>: Increase clicking reward by 1.</p>
+                <p><b>Effect</b>: Increase clicking reward by 50%.</p>
                 <hr>
                 <p><b><img src="http://musicfamily.org/realm/Factions/picks/ManaMatrixSecretUpgrade.png" alt="Mana Matrix" align="middle"> Mana Matrix</b></p>
                 <p><b>Requirement</b>: Have exactly 4767 maximum mana.</p>
@@ -2282,7 +2282,7 @@
                 <p><b>Cost</b>: 1 Qaqag (1e135)</p>
                 <p><b>Effect 1</b>: Gives 1 additional upgrade from any of the Good factions.</p>
                 <p><b>Effect 2</b>: Upgrades Tax Collection spell to Share Benefits. Increases the production of all buildings and Faction Coin find chance based on this spell tier level for 20 seconds. Can be cast up to 36 tiers.</p>
-                <p><b>Note</b>: Tier 41 and above cost x4/x2.25 (with S1275) instead of x2/x1.5 (with S1275)</p>
+                <p><b>Note</b>: Tier 41 and above cost x4/x2.25 (with S1275) instead of x2/x1.5 (with S1275) than each previous tier.</p>
                 <p><b>Formula</b>: 125 ^ (0.25 * t), where t is tier (FC chance multiplier)</p>
                 <p><b>Formula</b>: ((2.20 ^ T) - 1) * 100, multiplicative (production multiplier)</p>
                 <hr>

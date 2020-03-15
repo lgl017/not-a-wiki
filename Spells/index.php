@@ -222,7 +222,7 @@
     <p><b>Requirements</b></p>
     <p><img src="http://musicfamily.org/realm/Factions/picks/TieredAutocastingTrophy.png" align="middle"><b> Tiered Autocasting</b></p>
     <p>Requirement: R40+, 200M Mana Produced (Total this R).</p>
-    <p><b>Note</b>: This trophy unlocks at R40, The uprade is availabe at R40, but tiers do not unlock until R42.</p>
+    <p><b>Note</b>: This trophy unlocks at R40, The uprade is available at R40, but tiers do not unlock until R42.</p>
     <p><b>Upgrade Cost</b>:  100 Qid (1.0e50), A2+ Free</p>
     <p><b>Effect</b>: Allows you to set the maximum tier you wish to autocast each spell to.</p>
     <p><b>Note</b>: In the spell tooltip, use the diamond icon to change its mode until you get to the desired maximum tier number. Spells will still follow their previous priority rules.</p>
@@ -251,13 +251,9 @@
             <p onclick="shohid($(this));"><b> <a href="#" onclick="return false;">Offline Spell Casting</a></b></p>
             <div class="autohide">
     <p><b>While offline</b>: Spells set on autocasting will gain "Active Time (This game)", but no spell casts will be counted. Instead, a generic non-specific spell will increase your "Spell Casts" entry in the stats.</p>
-    <p><b>Offline Activity Time Gain Formula</b></p>
+    <p><b>Offline Activity Time Gain Formula (Requires Masterful Autocast)</b></p>
     <p><b>Formula</b>: t * min(1, m * d / (n * c ^ 1.5)), where t is offline time, m is mana regen per second, d is spell duration in seconds, c is spell mana cost (as tier 1), and n is number of spells set to autocast</p>
-    <p><b>Note</b>: Tax Collection does not count against spells in autocast for offline activity time generation..</p>
-    <p><b>For Spells to work offline, you need</b></p>
-    <p>Offline mana regen upgrades (such as included in the 'Automatic auto-casting' upgrade)</p>
-    <p>Offline spell casting upgrades (such as included in the 'Priority Auto-casting' upgrade)</p>
-    <p>The bonuses are additive. The total bonus of all the offline auto-casting upgrades is 7 spell casts per minute and 90% of your online mana regeneration rate.</p>
+    <p><b>Note</b>: Tax Collection does not count against spells in autocast for offline activity time generation.</p>
                 </div>
             </div>
         </div>
@@ -548,7 +544,7 @@
 <p><b>Effect</b>: Moon Blessing auto-clicks the treasure 15 times per second.</p>
 <p><b>Upgrade Cost</b>: 1 M (1e6), A1+ Free</p>
 <p><b>Challenge Upgrade</b>: <img src="http://musicfamily.org/realm/Factions/picks/StarBlessingChallenges.png" align="middle"> <b>Star Blessing</b> (R18+)</p>
-<p><b>Effect</b>: Clicks from the Sun Blessing spell upgrade have a 5% increased chance to trigger Elven (3,2) Elven Luck.</p>
+<p><b>Effect</b>: Automatic clicks from Sun Blessing always trigger Elven Luck.</p>
 <div class="shlisting">
     <div class="shelementwhole">
         <p onclick="shohid($(this));"><b><a href="#" onclick="return false;">Moon Blessing Tier 2-7</a></b> (R42+)</p>
@@ -638,8 +634,8 @@
 <p><b><img src="http://musicfamily.org/realm/Factions/picks/GoblinsGreed.png" alt="Evil" align="middle"> Goblin's Greed</b> (Goblins)</p>
 <p><b>Works For</b>: Goblin - <b>Cost</b>: 800 Mana - <b>Duration</b>: 5 seconds </p>
 <p><b>Effect</b>: Instantly produces Faction Coins based on gems you own Also increases production of all buildings based on the number of Faction Coins found in this game.</p>
-<p><b>FC Formula</b>: floor(ln^3(1 + x) + 20), where x is your current gems.</p>
-<p><b>Production Formula</b>: (0.75 * ln^3.15(1 + x))%, where x is your Faction Coins Gained (This Game) stat.</p>
+<p><b>FC Formula</b>: (20 + ln(1 + x) ^ 3), where x is your current gems.</p>
+<p><b>Production Formula</b>: (0.75 * ln(1 + x) ^ 3.15)%, where x is your Faction Coins Gained (This Game) stat.</p>
 <p><b>Spell Trophy & Upgrade</b>: <img src="http://musicfamily.org/realm/Factions/picks/GreedDriveFactionUpgrade.png" align="middle"> <b>Greed Drive</b></p>
 <p><b>Requirements</b>: Cast Goblin's Greed 100 times in a row and do not cast any other spell.</p>
 <p><b>Note</b>: The Goblin Central Bank upgrade does not interfere with getting this trophy.</p>
@@ -1018,10 +1014,10 @@
 <p><b>Effect</b>: Increases the production of all buildings and Faction Coin find chance based on this spell tier level for 20 seconds.</p>
 <p><b>Note</b>: A1 can cast up to 36 tiers.</p>
 <p><b>Note</b>: A3 can cast up to 99 tiers.</p>
+<p><b>Note</b>: Tier 41 and above cost x4/x2.25 (with S1275) instead of x2/x1.5 (with S1275) than each previous tier.</p>
 <p><b>Formula</b>: 120 ^ (0.25 * T), where T is tier (FC chance multiplier)</p>
 <p><b>Formula</b>: ((2.20 ^ T) - 1) * 100, multiplicative (production multiplier)</p>
 <p><b>Effect</b>: Also produce Tax Collection casts per second based on your Maximum Mana.</p>
-<p><b>Note</b>: Tier 41 and above cost x4/x2.25 (with S1275) instead of x2/x1.5 (with S1275)</p>
 <p><b>Formula</b>: (0.01 * y * T), where y is max mana, T is tier</p>
 <br/>
 <p><img src="http://musicfamily.org/realm/Factions/picks/ReapInterestsSpell.png" alt="Tyrant Garrison" align="middle"> <b>Reap Interests </b> (Evil Mercenaries)</p>

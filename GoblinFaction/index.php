@@ -17,8 +17,8 @@
         <p><b>Faction spell</b></p>
         <p><b><img src="http://musicfamily.org/realm/Factions/picks/GoblinsGreed.png" alt="Smiley face" align="middle"> Goblin's Greed</b></p>
         <p><b>Effect</b>: Instantly produces Faction Coins based on your current gems and provides a boost based on the number of Faction Coins discovered for 5 seconds.</p>
-        <p><b>FC Formula</b>: floor(ln^3(1 + x) + 20, where x is your current gems.</p>
-        <p><b>Production Formula</b>: 0.75 * ln^3.15(1 + x)%, where x is your Faction Coins Gained (This Game) stat.</p>
+        <p><b>FC Formula</b>: (20 + ln(1 + x) ^ 3), where x is your current gems.</p>
+        <p><b>Production Formula</b>: (0.75 * ln(1 + x) ^ 3.15)%, where x is your Faction Coins Gained (This Game) stat.</p>
         <br/>
         <p><b>Spell Trophy & Upgrade</b></p>
         <p><b><img src="http://musicfamily.org/realm/Factions/picks/GreedDriveFactionUpgrade.png" alt="Smiley face" align="middle"> Greed Drive</b></p>
@@ -91,7 +91,7 @@
         <hr>
         <p><b>Goblin Research Requirements</b></p>
         <p><b><img src="http://musicfamily.org/realm/Factions/picks/GoblinBankQuestFactionUpgrade.png" alt="Smiley face" align="middle"> Goblin Bank Quest</b></p>
-        <p>Hey There! We need a safe place to keep our honestly earned savings. We'll turn those Witch Conclaves into something more... useful, if you build enough of them.</p>
+        <p><b>Description</b>: Hey There! We need a safe place to keep our honestly earned savings. We'll turn those Witch Conclaves into something more... useful, if you build enough of them.</p>
         <p><b>Requirement</b>: R16 + 1750 Witch Conclaves</p>
         <p><b>Cost</b>: 10 Dtg (1E100)</p>
         <p><b>Note</b>: Required once throughout the entire game play and does not count towards the bought upgrade stat.</p>
@@ -123,7 +123,8 @@
         <p><b>Note</b>: When using their lineage, Advanced Heritage powers are multiplied by the level of the lineage.</p>
         <p><b>Formula</b>: (1 + 0.3 * level)</p>
         <br/>
-        <p><img src="http://musicfamily.org/realm/Factions/picks/SlaveMarketQuest.png" alt="Burning Abyss Quest" align="middle"> <b>Slave Market Quest</b></p>
+        <p><img src="http://musicfamily.org/realm/Factions/picks/SlaveMarketQuest.png" alt="Slave Market Quest" align="middle"> <b>Slave Market Quest</b></p>
+		<p><b>Description</b>: Time is money, friend! The markets are expanding, we need new places to sell our slaves to! Build more Neutral buildings for us, will you?</p>
         <p><b>Requirement</b>: 30K Neutral buildings.</p>
         <p><b>Cost</b>: 1 Ud (1e36) Emerald Coins</p>
         <p><b>Effect</b>: Grants access to Unique Building.</p>

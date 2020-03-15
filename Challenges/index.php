@@ -148,12 +148,12 @@
     <area href="http://musicfamily.org/realm/Angel/#AngelAC3" target="" research=
 	"<p><b>Angel Challenge 3</b></p>
 	<p><img src=http://musicfamily.org/realm/Factions/picks/Nephilim'sBlessingChallenges.png align=middle> <b>Nephilim's Blessing</b></p>
-	<p>&quot;The fallen nephilim have noticed your abilities and have entrusted you with a secret mission: Spread false hope upon the legends of mortals.&quot;</p>
+	<p>The fallen nephilim have noticed your abilities and have entrusted you with a secret mission: Spread false hope upon the legends of mortals.</p>
 	<p><b>Requirements</b>: Angel as Base Faction, Reincarnation 18+, Demon Bloodline, Angel Unique Building, Angel challenge 2 completed.</p>
 	<p><b>Note</b>: Dwarf can <b>NOT</b> be used unless you can get Dwarf's Unique Building at R28+.</p>
 	<p><b>Challenge</b>: Have 2000 Halls of Legends, and no good buildings.</p>
 	<p><b>Effect</b>: Halls of Legends benefit from any Certificate, Validation, Affirmation or Proclamation upgrade.</p>
-  </p><p><b>Upgrade</b>: Works with All</p>"
+  <p><b>Upgrade</b>: Works with All</p>"
 	coords="200,255,251,308" shape="rect">
     <area href="http://musicfamily.org/realm/Goblin/#GoblinGCR" target="" research=
 	"<p><b>Spell upgrade challenge reward</b></p>
@@ -306,7 +306,7 @@
 	<p><b>Requirements</b>: Titan as Base Faction, Reincarnation 19+, 1000 excavations, Angel and Goblin challenge 3 and Titan challenge 2 completed.</p>
 	<p><b>Challenge</b>: Generate 1 B (1E9) Faction Coins with the Lightning Strike spell.</p>
 	<p><b>Effect</b>: Gain additional max mana based on the number of faction coins generated this game.</p>
-	<p><b>Formula</b>: round(2.5 * log10(1+x))%, where x is your Faction Coins Gained (This Game) stat.</p>
+	<p><b>Formula</b>: round(2.5 * log10(1 + x))%, where x is your Faction Coins Gained (This Game) stat.</p>
 	<p><b>Upgrade</b>: Works with Druid</p>"
 	coords="198,671,251,725" shape="rect">
     <area href="http://musicfamily.org/realm/Titan/#TitanTC4" target="" research=
@@ -315,7 +315,7 @@
 	<p>&quot;The mighty titans wish to cement their legendary status for perpetuity. You must focus on this task and no other to be able to join them.&quot;</p>
 	<p><b>Requirements</b>: Titan as Base Faction, Reincarnation 25+, Titan Unique Building, Titan challenge 3 completed.</p>
 	<p><b>Challenge</b>: Hit Halls of Legends with Lightning Strike 2 times in a row while having all building types and no researches.</p>
-	<p><b>Effect</b>: Every 5 minutes you automatically generate Faction Coins based on the amount of Gems you own.</p>
+	<p><b>Effect</b>: Every 5 minutes you automatically generate Faction Coins based on Lightning Strike's Faction Coins production.</p>
 	<p><b>Formula</b>: round(0.05 * x), where x is the amount of Faction coins generated from a Lightning Strike.</p>
 	<p><b>Upgrade</b>: Works with All</p>
 	<p><b>Tip</b>: Buy Olympian Hall, generate as much mana per second from non-Research methods (mostly Heritages), set Lightning Strike on bronze (Ctrl+Shift). Wait. On average, it takes 132 strikes to get two in a row on HoLs.</p>"

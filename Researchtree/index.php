@@ -220,8 +220,8 @@
 	<p><b>Requirement</b>: Have 4000 Mana. (This Game)
 	<p><b>Cost</b>: 95.88 Dqag (9.588E130)
 	<p><b>Effect</b>: Increase maximum mana and mana regeneration rate based on time spent in this game.
-	<p><b>Formula</b>: Max Mana:(0.1 * x), where x is your Playtime (This Game) stat in hours.
-	<p><b>Formula</b>: Mana Regeneration:(0.5 * x ^ 0.5), where x is your Playtime (This Game) stat in hours.
+	<p><b>Formula</b>: Max Mana:(0.1 * x), where x is your Playtime (This Game) stat in seconds.
+	<p><b>Formula</b>: Mana Regeneration:(0.5 * x ^ 0.5), where x is your Playtime (This Game) stat in seconds.
 	" coords="222,30,273,77" shape="rect">
         <area research="S50 - For Goblin
 	<p><b>Research Name</b>: Conjuration
@@ -1010,7 +1010,7 @@
 	<p><b>Requirement</b>: Have 2x Gems in Abdication Treasury
 	<p><b>Cost</b>: 1.117 NoQig (1.117E180)
 	<p><b>Effect</b>: Increase Faction Coin find chance based on the amount of Unique Buildings owned.
-	<p>Also increase FC chance find chance by a multiplicative 100%.
+	<p><b>Effect</b>: Also increase FC chance find chance by a multiplicative 100%.
 	<p><b>Formula</b>: 5 * x ^ 0.9, where x is Unique Building owned
 	" coords="3,857,51,906" shape="rect">
         <area research="E330 - For All Factions
@@ -1244,8 +1244,7 @@
 	<p><b>Cost</b>: 255.2 OcQig (2.552E179)
 	<p><b>Effect</b>: Increase your chance to find Faction Coins based on the amount of spells cast in this game.
 	<p><b>Effect</b>: Also increase Faction Coins find chance by a multiplicative 100%.
-	<p><b>Formula</b>: floor(3.5 * logE(1+x) ^ 3.5)%, where x is your Spells Cast (This Game) stat,
-	<p><b>or approximately</b>: floor((ln(x) + 0.69)^{2.75})%, where x is your Spells Cast (This Game) stat.
+	<p><b>Formula</b>: floor(3.5 * ln(1 + x) ^ 3.5)%, where x is your Spells Cast (This Game) stat,
 	" coords="4,1096,51,1145" shape="rect">
         <area research="A330 - For All Factions
 	<p><b>Research Name</b>: Adaptation
